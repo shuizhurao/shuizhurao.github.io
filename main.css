@@ -1,4 +1,145 @@
+@font-face {
+    src: url("ITCEDSCR.ttf");
+    font-family: script;
+}
+@font-face {
+    src: url("ufonts.com_akzidenz-grotesk-bold.ttf");
+    font-family: "akzidenz";
+}
 html, body {
 margin:0;
 padding:0;
+background-color: #FBFCFC;
+}
+header {
+    background-color: #FBFCFC;
+    position: absolute;
+}
+.left-header {
+    position: fixed;
+    left: 50px;
+    top: 35%;
+    width: 15%;
+    font-size: 1.2em;
+    font-family: akzidenz;
+}
+.left-header a {
+    color: black;
+    display: block;
+    margin: 1px;
+}
+.right-header {
+    position: fixed;
+    right: 50px;
+    top: 35%;
+    width: 15%;
+}
+.right-header p {
+    margin: 1px;
+    font-size: 1.2em;
+    font-family: akzidenz;
+    text-align: right
+}
+section {
+    background-color: #FBFCFC;
+}
+.start {
+    margin-top: 15px;
+}
+.start p, .start h1 {
+    margin: 0;
+}
+.start-outer-box {
+    padding: 10px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+.start-outer-box h1 {
+    text-align: center;
+    font-size: 4.4em;
+    font-family: script;
+}
+.start-outer-box p {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: akzidenz;
+}
+.start-inner-box img {
+    height: 500px;
+    margin: 0 auto;
+}
+.description {
+    margin-top: 100px;
+    border-left: 1px solid; border-right: 1px solid;
+}
+.description h2 {
+    font-size: 4.5em;
+    
+}
+.description p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+.description img {
+    margin: 0 auto;
+}
+.health {
+    margin-top: 100px;
+    border-left: 1px solid; border-right: 1px solid;
+}
+.health h2 {
+    font-size: 4.5em;
+    text-align: right;
+}
+.health ul {
+    font-size: 1.2em;
+    text-align: justify;
+}
+.services {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-left: 1px solid; border-right: 1px solid;
+}
+.services h2 {
+    font-size: 4.5em;
+    text-align: left;
+}
+.services img {
+    margin-top: 20px;
+}
+.services ul {
+    font-size: 1.2em;
+    text-align: justify;
+}
+.red-important {
+    color: #CD6155;
+}
+.top-header {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 2.5em;
+    font-family: script;
+    z-index: 5;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    font-family: akzidenz;
+    z-index: 5;
+}
+.learn-more-mobile {
+    font-size: 2em;
+    border-left: 1px solid; border-right: 1px solid;
+    margin-bottom: 100px;
 }
