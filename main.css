@@ -1,8 +1,4 @@
 @font-face {
-    src: url("ITCEDSCR.ttf");
-    font-family: "title";
-}
-@font-face {
     src: url("ufonts.com_akzidenz-grotesk-bold.ttf");
     font-family: "akzidenz";
 }
@@ -59,7 +55,7 @@ section {
 .start-outer-box h1 {
     text-align: center;
     font-size: 4.4em;
-    font-family: "title";
+    font-family: 'Rouge Script'
 }
 .start-outer-box p {
     text-align: center;
@@ -123,7 +119,7 @@ section {
     background-color: black;
     color: white;
     font-size: 2.5em;
-    font-family: "title";
+    font-family: 'Rouge Script';
     z-index: 5;
 }
 .footer {
